@@ -1,0 +1,3 @@
+[submodule "qbootctl"]
+	path = qbootctl
+	url = https://gitlab.com/sdm845-mainline/qbootctl.git

@@ -1,0 +1,10 @@
+[Unit]
+Description=Droid bootctl
+After=start-user-session.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/qbootctl -m
+
+[Install]
+WantedBy=graphical.target actdead.target
